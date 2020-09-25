@@ -68,10 +68,10 @@ html {
 }
 @supports (-webkit-touch-callout: none) {
   html {
-    position: relative;
+    position: absolute;
     transform: scale(0.9);
-    left: -10%;
-    margin: -9% 0 0 0;
+    top: -10%;
+    left: -14%;
   }
 }
 
