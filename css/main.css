@@ -79,6 +79,14 @@ main article {
   width: 1000px;
   margin: 0 auto;
 }
+main article .image {
+  position: absolute;
+  background: url(../images/image.png) no-repeat top center;
+  background-size: 100%;
+  width: 963px;
+  height: 981px;
+  margin: -107px 0 0 265px;
+}
 main .bg {
   position: absolute;
   background: url(../images/bg.jpg) no-repeat top center;

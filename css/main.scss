@@ -24,6 +24,14 @@ main {
         position: relative;
         width: 1000px;
         margin: 0 auto;
+        .image {
+            position: absolute;
+            background: url(../images/image.png) no-repeat top center;
+            background-size: 100%;
+            width: 963px;
+            height: 981px;
+            margin: -107px 0 0 265px;
+        }
     }
     .bg {
         position: absolute;
