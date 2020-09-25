@@ -85,6 +85,7 @@ main {
                     &:active,
                     &.active {
                         border: 1px solid #4ea353;
+                        background: #0a6800;
                         background: linear-gradient(
                             to top,
                             #a6ffa6 0%,
@@ -155,7 +156,7 @@ main {
                 &:active,
                 &.active {
                     border: 1px solid #9f895c;
-                    background: #5a3f0f;
+                    background: #dbc89e;
                     background: linear-gradient(
                         to top,
                         #fff2d6 0%,
@@ -186,4 +187,8 @@ main {
         height: 100%;
         z-index: -20;
     }
+}
+
+.iebg {
+    display: none;
 }

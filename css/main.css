@@ -122,6 +122,7 @@ main article .login .t .o:hover,
 main article .login .t .o:active,
 main article .login .t .o.active {
   border: 1px solid #4ea353;
+  background: #0a6800;
   background: linear-gradient(to top, #a6ffa6 0%, #7cff79 16%, #009800 43%, #0a6800 61%, #0b5b0f 84%, #0a6800 93%, #002d02 100%);
 }
 main article .login .t .n {
@@ -171,7 +172,7 @@ main article .login .b {
 }
 main article .login .b:hover, main article .login .b:active, main article .login .b.active {
   border: 1px solid #9f895c;
-  background: #5a3f0f;
+  background: #dbc89e;
   background: linear-gradient(to top, #fff2d6 0%, #dbc89e 14%, #9a7e52 37%, #5a3f0f 64%, #4a3207 80%, #634311 93%, #1b0a00 100%);
 }
 main article .image {
@@ -189,4 +190,8 @@ main .bg {
   width: 100%;
   height: 100%;
   z-index: -20;
+}
+
+.iebg {
+  display: none;
 }
