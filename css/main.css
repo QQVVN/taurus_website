@@ -162,7 +162,7 @@ main article .login .m .mb input {
 @supports (-webkit-touch-callout: none) {
   main article .login .m .mt input,
 main article .login .m .mb input {
-    margin: 0 0 0 5px;
+    margin: 0 0 0 10px;
   }
 }
 main article .login .m .mt {
