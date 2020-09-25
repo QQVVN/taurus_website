@@ -196,6 +196,8 @@ main article .image {
   width: 963px;
   height: 981px;
   margin: -104px 0 0 277px;
+  animation: bounceInRight;
+  animation-duration: 1s;
 }
 main .bg {
   position: absolute;
