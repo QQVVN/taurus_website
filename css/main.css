@@ -66,6 +66,14 @@ html {
   height: 100%;
   overflow: hidden;
 }
+@supports (-webkit-touch-callout: none) {
+  html {
+    position: relative;
+    transform: scale(0.9);
+    left: -10%;
+    margin: -9% 0 0 0;
+  }
+}
 
 main {
   position: relative;
@@ -147,8 +155,15 @@ main article .login .m .mb input {
   border: 1px solid #ffda59;
   width: 270px;
   height: 32px;
+  margin: 0 0 0 14px;
   padding: 0 5px;
   outline: none;
+}
+@supports (-webkit-touch-callout: none) {
+  main article .login .m .mt input,
+main article .login .m .mb input {
+    margin: 0 0 0 5px;
+  }
 }
 main article .login .m .mt {
   margin: 0 0 13px 0;
